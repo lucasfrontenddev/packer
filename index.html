@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- Favicon -->
+    <link href="./assets/icono.png" rel="icon">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <title>Lucas</title>
+</head>
+
+<body>
+
+    <header class="init">
+        <nav class="navbar navbar-expand-md bg-color-orange">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-black trn" aria-current="page" href="#">Home</a>
+                          </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            English <img src="https://cdn-icons-png.flaticon.com/512/555/555417.png" alt="english flag" height="20">
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item cepi-url" href="?lang=pt">Portuguese </a>
+                            <a class="dropdown-item cepi-url" href="?lang=es">Spanish </a>
+                            <a class="dropdown-item cepi-url" href="?lang=fr">French <img src="https://cdn-icons-png.flaticon.com/512/555/555602.png" alt="french flag" height="20"></a>
+                            <a class="dropdown-item cepi-url" href="?lang=gr">German <img src="https://cdn-icons-png.flaticon.com/512/555/555613.png" alt="german flag" height="20"></a>
+                          </div>
+                        </li>
+                    </ul>
+
+                    <hr>
+    
+                    <ul class="navbar-nav flex-row flex-wrap text-black">
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-facebook-f"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-twitter"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-instagram"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-youtube"></div>
+                        </li>
+                    </ul>
+                </div>             
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="animation__container">
+            <section class="seccion seccion__1">
+              <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+                <mask id="m">
+                  <g class="cloud1">
+                    <rect fill="#fff" width="100%" height="801" y="799" />
+                    <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800"/>
+                  </g>
+                </mask>
+                <!--
+                  <image class="sky" href="./assets/bg-sky.jpg"  width="1200" height="590" />   
+                -->
+                <image class="sky" href=""  width="1200" height="590" />   
+
+                <image class="rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="5000" height="800"/>
+              <image class="cloud1 rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="800" height="800"/>
+              <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
+              <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="1150"/>    
+              <image x="680" y="120" class="logo" href="./assets/icono-transparente.png" width="60" height="150"/>
+                <image x="740" y="120" class="logo" href="./assets/icono-transparente.png" width="60" height="150"/>
+                <text fill="#fff" x="220" y="70" class="trn hey">Hello, my name is Lucas</text>
+                <text fill="#fff" x="220" y="160" class="trn i_am">I am a</text>
+                <text fill="#fff" x="220" y="230" class="trn packer_rigger">Packer</text>
+                <!--
+                <polyline class="arrow" fill="#fff" points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" />
+                -->
+                <g mask="url(#m)">
+                  <rect fill="#fff" width="100%" height="100%" />
+                  <image x="680" y="120" href="./assets/icono.png" width="60" height="150"/>
+                  <image x="740" y="120" href="./assets/icono.png" width="60" height="150"/>      
+                  <text x="220" y="160" fill="#162a43" class="trn i_am">I am a</text>
+                  <text x="220" y="230" fill="#162a43" class="trn packer_rigger">Rigger</text>
+                  <text x="220" y="410" fill="#162a43" class="presentation trn">I am a skydiver with over 8 years of experience.</text>
+                  <text x="220" y="430" fill="#162a43" class="presentation trn">Currently based in Buenos Aires, </text>
+                  <text x="220" y="450" fill="#162a43" class="presentation trn">I have been working in "Sky Chascomús" as a packer for more than a year now.</text>
+                  <text x="220" y="470" fill="#162a43" class="presentation trn">In September of last year, I received my Rigger certification after two months of training.</text>
+
+                </g>
+                
+                <rect id="arrowBtn" width="100" height="100" opacity="0" x="550" y="220" style="cursor:pointer"/>
+              </svg> 
+            </section>
+            <section class="seccion seccion__2">
+            </section>
+            <section class="seccion seccion__3 border border-dark">
+              <div class="m-4 p-4"></div>
+                <p>Estoy buscando </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, harum? Reprehenderit soluta delectus cupiditate voluptates neque atque cum, dolorem quo corporis quaerat quod animi repellat provident rerum ea sit laboriosam.</p>
+            </section>
+            <section class="seccion seccion__4">
+                <h1>4</h1>
+            </section>
+        </div>
+    </main>
+    <!-- fin hero -->
+    
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+    <span>Get connected with me on social networks:</span>
+  </div>
+  <!-- Left -->
+
+  <!-- Right -->
+  <div>
+    <a href="https://www.facebook.com/suplicante.dealamito" class="me-4 text-reset">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="https://www.instagram.com/barrilete_feliz/" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="www.linkedin.com/in/lucas-sebastian-martinez-7b72b21b3" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/lucasfrontenddev" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+  </section>
+  <section class="">
+  <div class="container text-center text-md-start mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase fw-bold mb-4">
+          <i class="fas fa-gem me-3"></i>Company name
+        </h6>
+        <p>
+          Here you can use rows and columns to organize your footer content. Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">
+          Products
+        </h6>
+        <p>
+          <a href="#!" class="text-reset">Angular</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">React</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Vue</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Laravel</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">
+          Useful links
+        </h6>
+        <p>
+          <a href="#!" class="text-reset">Pricing</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Settings</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Orders</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset">Help</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="fas fa-home me-3"></i> BsAs, NY 10012, AR</p>
+        <p>
+          <i class="fas fa-envelope me-3"></i>
+          lucasfrontenddev@gmail.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2022 Copyright:
+  <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+</footer>
+    
+  <script src="./js/ScrollToPlugin3.js"></script>
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/gsap-latest-beta.min.js"></script>
+  <script src="./js/ScrollTrigger.min.js"></script>
+  <script src="./js/scroll-main.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js "></script>
+  <script src="js/jquery.translate.js"></script>
+  <script src="js/json-translate.js"></script>
+</body>
+
+</html>

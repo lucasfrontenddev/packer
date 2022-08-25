@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto+Mono:wght@300&display=swap');
+/*
+
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    */
+
+$bg-color-orange: orange;
+
+$colores-redes: (
+    facebook: #3b5998,
+    twitter: #00acee,
+    instagram: #C13584,
+    youtube: #c4302b
+);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 60.5%;
+
+    header{
+        nav{
+            button{}
+            #menu{
+                ul{
+                    li{
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .animation__container{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            /* Para 800px */   
+            /*
+            height: auto;
+            */
+            .seccion{
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+            }
+            .seccion:nth-child(1){
+                background: linear-gradient(to top, #45749c, #185197);
+                
+                svg{
+
+                    @media only screen and (max-width: 1020px) {  
+                        height: 150vh;
+                        } 
+                    .logo{
+                        background-color: #ffffff;
+                        color: #c4302b;
+                        font-size: 5rem;
+                    }
+                    text{
+                        font-family: 'Roboto Mono', monospace;
+                        font-size:2rem;
+                        text-align:center;
+                        
+                    }
+                    .hey{
+                        font-size: 2rem;
+                    }
+                    .i_am{
+                        font-size:3rem;
+                    }
+                    .packer_rigger{
+                        font-size: 4rem;
+                    }
+                    .presentation{
+                        font-size:1rem;
+                    }
+                    .sky{
+
+                    }
+                    .rotate{
+                        transform: scaleX(-1);
+                    }
+
+                    .cloud2{}
+                    .cloud3{}
+                    .cloud4{}
+                    .cloud1{}
+                    .flag{}
+                    .hello{
+                        font-size: 3rem;
+                        font-family: 'Roboto Mono', monospace;
+                        
+    
+                    }
+                }
+            }
+            .seccion:nth-child(2){
+
+            }
+            .seccion:nth-child(3){
+                background-color: #2b7fc454;
+                border-right: 5px black;
+            }
+            .seccion:nth-child(4){
+                background-color: rgba(2, 27, 164, 0.63);
+            }
+
+        }
+    }
+    footer{
+        width: 100%;
+        height: 100vh;
+        background-color: #21282b;
+    }
+}
+
+
+@media only screen and (max-width: 820px) {  
+    .hey{
+        font-size: 0.5rem;
+    }
+} 
+
+
+
+
+  
+  
+
+
+  
+  
