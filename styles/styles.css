@@ -16,8 +16,9 @@ body {
   font-size: 60.5%;
 }
 body header {
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  z-index: 2;
+  background-color: #ffffff;
 }
 body main .animation__container {
   width: 100%;
@@ -69,13 +70,13 @@ body main .animation__container .seccion:nth-child(1) svg .rotate {
 }
 @media (max-width: 1280px) {
   body main .animation__container .seccion:nth-child(1) svg .i_am, body main .animation__container .seccion:nth-child(1) svg .hey {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   body main .animation__container .seccion:nth-child(1) svg .packer_rigger {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   body main .animation__container .seccion:nth-child(1) svg .presentation {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
   }
 }
 body main .animation__container .seccion:nth-child(3) {

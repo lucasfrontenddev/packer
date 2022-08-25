@@ -27,10 +27,10 @@ $colores-redes: (
 body{
     font-size: 60.5%;
     header{
-        position: relative;
-        z-index: 1;
+        position: fixed;
+        z-index: 2;
+        background-color: #ffffff;
         nav{
-
             button{}
             #menu{
                 ul{
@@ -60,7 +60,8 @@ body{
                 svg{
                     @media (max-width:1400px){
                         height: 150vh;
-                      }
+                    }
+
                     .logo{
                         background-color: #ffffff;
                         color: #c4302b;
@@ -92,13 +93,13 @@ body{
                     }
                     @media (max-width:1280px){
                         .i_am, .hey{
-                            font-size: 1rem;
+                            font-size: 0.8rem;
                         }
                         .packer_rigger{
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                         }
                         .presentation{
-                            font-size: 0.4rem;
+                            font-size: 0.3rem;
                         }
                       }
                       
