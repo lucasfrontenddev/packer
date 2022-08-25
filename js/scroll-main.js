@@ -6,7 +6,7 @@ const tl = gsap.timeline();
 if (window.innerWidth > 800) {
     tl.from('.seccion__2', {yPercent: 100})
     tl.from('.seccion__3', {xPercent: -100})
-    tl.from('.seccion__4', {xPercent: 100})
+    tl.from('.seccion__4', {yPercent: 100})
 
     .fromTo('.sky', {y:0},{y:-100}, 0)
     .fromTo('.cloud1', {y:100},{y:-800}, 0)
