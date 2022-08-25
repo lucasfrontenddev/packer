@@ -26,9 +26,11 @@ $colores-redes: (
 
 body{
     font-size: 60.5%;
-
     header{
+        position: relative;
+        z-index: 1;
         nav{
+
             button{}
             #menu{
                 ul{
@@ -55,12 +57,10 @@ body{
             }
             .seccion:nth-child(1){
                 background: linear-gradient(to top, #45749c, #185197);
-                
                 svg{
-
-                    @media only screen and (max-width: 1020px) {  
+                    @media (max-width:1400px){
                         height: 150vh;
-                        } 
+                      }
                     .logo{
                         background-color: #ffffff;
                         color: #c4302b;
@@ -90,18 +90,18 @@ body{
                     .rotate{
                         transform: scaleX(-1);
                     }
-
-                    .cloud2{}
-                    .cloud3{}
-                    .cloud4{}
-                    .cloud1{}
-                    .flag{}
-                    .hello{
-                        font-size: 3rem;
-                        font-family: 'Roboto Mono', monospace;
-                        
-    
-                    }
+                    @media (max-width:1280px){
+                        .i_am, .hey{
+                            font-size: 1rem;
+                        }
+                        .packer_rigger{
+                            font-size: 2rem;
+                        }
+                        .presentation{
+                            font-size: 0.4rem;
+                        }
+                      }
+                      
                 }
             }
             .seccion:nth-child(2){

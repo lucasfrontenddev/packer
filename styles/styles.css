@@ -15,6 +15,10 @@
 body {
   font-size: 60.5%;
 }
+body header {
+  position: relative;
+  z-index: 1;
+}
 body main .animation__container {
   width: 100%;
   height: 100vh;
@@ -33,7 +37,7 @@ body main .animation__container .seccion {
 body main .animation__container .seccion:nth-child(1) {
   background: linear-gradient(to top, #45749c, #185197);
 }
-@media only screen and (max-width: 1020px) {
+@media (max-width: 1400px) {
   body main .animation__container .seccion:nth-child(1) svg {
     height: 150vh;
   }
@@ -63,9 +67,16 @@ body main .animation__container .seccion:nth-child(1) svg .presentation {
 body main .animation__container .seccion:nth-child(1) svg .rotate {
   transform: scaleX(-1);
 }
-body main .animation__container .seccion:nth-child(1) svg .hello {
-  font-size: 3rem;
-  font-family: "Roboto Mono", monospace;
+@media (max-width: 1280px) {
+  body main .animation__container .seccion:nth-child(1) svg .i_am, body main .animation__container .seccion:nth-child(1) svg .hey {
+    font-size: 1rem;
+  }
+  body main .animation__container .seccion:nth-child(1) svg .packer_rigger {
+    font-size: 2rem;
+  }
+  body main .animation__container .seccion:nth-child(1) svg .presentation {
+    font-size: 0.4rem;
+  }
 }
 body main .animation__container .seccion:nth-child(3) {
   background-color: rgba(43, 127, 196, 0.3294117647);
