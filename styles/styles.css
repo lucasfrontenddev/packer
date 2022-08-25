@@ -15,10 +15,12 @@
 body {
   font-size: 60.5%;
 }
-body header {
-  position: fixed;
-  z-index: 2;
-  background-color: #ffffff;
+@media (max-width: 1280px) {
+  body header {
+    position: fixed;
+    z-index: 2;
+    background-color: #ffffff;
+  }
 }
 body main .animation__container {
   width: 100%;
