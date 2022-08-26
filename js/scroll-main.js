@@ -35,11 +35,11 @@ if (window.innerWidth > 900) {
     })
 
 } else {
-    document.getElementById("hey").setAttribute("y", "50");
-    document.getElementById("i_am_a").setAttribute("y", "75");
-    document.getElementById("packer").setAttribute("y", "110");
-    document.getElementById("i_am_a_2").setAttribute("y", "75");
-    document.getElementById("rigger").setAttribute("y", "110");
+    document.getElementById("hey").setAttribute("y", "175");
+    document.getElementById("i_am_a").setAttribute("y", "200");
+    document.getElementById("packer").setAttribute("y", "240");
+    document.getElementById("i_am_a_2").setAttribute("y", "200");
+    document.getElementById("rigger").setAttribute("y", "240");
 
     tl.from('.seccion__2', {yPercent: 100})
     tl.from('.seccion__3', {xPercent: -100})
