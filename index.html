@@ -35,9 +35,6 @@
                         <li class="nav-item">
                             <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link active text-black" aria-current="page" href="#">Home 2</a>
-                      </li>
                     </ul>
 
                     <hr>
@@ -45,19 +42,19 @@
                 <!-- enlaces redes sociales -->
                     <ul class="navbar-nav flex-row flex-wrap text-black">
                       <li class="nav-item col-3 col-md-auto p-3">
-                          <a class="dropdown-item cepi-url" href="?lang=pt">Portuguese </a>
+                          <a class="dropdown-item cepi-url" href="?lang=pt"> <!--Portuguese--><img src="https://cdn-icons-png.flaticon.com/512/555/555602.png" alt="french flag" height="20"> </a>
                       </li>
 
                       <li class="nav-item col-3 col-md-auto p-3">
-                          <a class="dropdown-item cepi-url" href="?lang=es">Spanish </a>
+                          <a class="dropdown-item cepi-url" href="?lang=es"><!--Spanish--><img src="https://cdn-icons-png.flaticon.com/512/555/555613.png" alt="german flag" height="20"> </a>
                       </li>
 
                       <li class="nav-item col-3 col-md-auto p-3">
-                          <a class="dropdown-item cepi-url" href="?lang=fr">French <img src="https://cdn-icons-png.flaticon.com/512/555/555602.png" alt="french flag" height="20"></a>
+                          <a class="dropdown-item cepi-url" href="?lang=fr"><!--French--> <img src="https://cdn-icons-png.flaticon.com/512/555/555602.png" alt="french flag" height="20"></a>
                       </li>
 
                       <li class="nav-item col-3 col-md-auto p-3">
-                          <a class="dropdown-item cepi-url" href="?lang=gr">German <img src="https://cdn-icons-png.flaticon.com/512/555/555613.png" alt="german flag" height="20"></a>
+                          <a class="dropdown-item cepi-url" href="?lang=gr"><!--German--> <img src="https://cdn-icons-png.flaticon.com/512/555/555613.png" alt="german flag" height="20"></a>
                       </li>
                     </ul>
                 </div>
@@ -80,7 +77,6 @@
                   <image class="sky" href="./assets/bg-sky.jpg"  width="1200" height="590" />   
                 -->
                 <image class="sky" href=""  width="1200" height="590" />   
-
                 <image class="rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="5000" height="800"/>
               <image class="cloud1 rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="800" height="800"/>
               <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
@@ -99,7 +95,8 @@
                   <text x="40" y="410" fill="#162a43" class="presentation trn">I am a skydiver with over 8 years of experience.</text>
                   <text x="40" y="430" fill="#162a43" class="presentation trn">Currently based in Buenos Aires, </text>
                   <text x="40" y="450" fill="#162a43" class="presentation trn">I have been working in "Skydive Chascomús" as a packer for more than a year now.</text>
-                  <text x="40" y="470" fill="#162a43" class="presentation trn">In September of last year, I received my Rigger certification after two months of training.</text>
+                  <text x="40" y="470" fill="#162a43" class="presentation trn">In September of last year,</text>
+                  <text x="40" y="490" fill="#162a43" class="presentation trn">I received my Rigger certification after two months of training.</text>
 
                 </g>
                 
@@ -121,30 +118,21 @@
                 -->
             </section>
             <section class="seccion seccion__4">
-              <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-                <mask id="m">
-                  <g class="cloud1">
-                    <rect fill="#fff" width="100%" height="801" y="799" />
-                    <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800"/>
-                  </g>
-                </mask>
-                <image class="sky" href=""  width="1200" height="590" />   
+              <div class="clouds_animation_container">
+                <div id="overlay">
+                  <img src="https://s14.postimg.cc/3ny2wo3ch/clouds.png" width="1200" height="670" alt="animated clouds">
+                  <img src="https://s14.postimg.cc/3ny2wo3ch/clouds.png" width="1200" height="670" alt="animated clouds" class="clouds-delay">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil nisi sit commodi non rem quaerat fuga similique enim sint natus illum debitis incidunt deserunt sapiente, adipisci doloribus optio cumque?</p>
+              </div>
 
-                <image class="rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="5000" height="800"/>
-              <image class="cloud1 rotate" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="800" height="800"/>
-              <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
-              <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="1150"/>                  
-              </svg>
             </section>
         </div>
     </main>
     <!-- fin hero -->
     
   <footer class="text-center text-lg-start bg-light text-muted">
-    <div id="overlay">
-      <img src="https://s14.postimg.cc/3ny2wo3ch/clouds.png" width="1200" height="670" alt="animated clouds">
-      <img src="https://s14.postimg.cc/3ny2wo3ch/clouds.png" width="1200" height="670" alt="animated clouds" class="clouds-delay">
-    </div>
+
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
