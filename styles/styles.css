@@ -79,7 +79,7 @@ body main .animation__container .seccion:nth-child(3) {
   border-right: 5px black;
 }
 body main .animation__container .seccion:nth-child(4) {
-  background: linear-gradient(to top, #185197, rgba(69, 115, 156, 0.8117647059));
+  background: linear-gradient(to top, #185197, #45739c);
   z-index: 2;
 }
 body main .animation__container .seccion:nth-child(4) .clouds_animation_container #overlay {

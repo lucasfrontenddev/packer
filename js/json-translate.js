@@ -15,10 +15,10 @@ var dict = {
 
     },
 
-    "I am": {
+    "I am a": {
         pt: "Eu sou",
         fr: "Je suis",
-
+        es: 'Soy'
     },
 
     "I am a skydiver with over 8 years of experience.": {
@@ -29,12 +29,21 @@ var dict = {
         pt: "vá para o campo virtual, em espanhol"
     },
     /* Presentation */
+
+    /* Footer*/
+    "Useful links": {
+        pt: "Links Úteis",
+        fr: "Liens utiles",
+        es: "Links útiles"
+
+    },
     "Contact": {
-        pt: "Eu sou",
-        fr: "Je suis",
+        pt: "Contato",
+        fr: "Contact",
         es: "Contacto"
 
     },
+    
 }
 
 function getUrlParameter(name) {
