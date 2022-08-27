@@ -79,7 +79,6 @@ $(document).ready(function(){
                 $(v).attr('href', viejoHREF+'?lang=fr');
             });
             $('.cepi-url').attr('href','#');
-            $('.cepi-url').find('h3').text('Web - English');
         }
     }
 })
