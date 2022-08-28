@@ -57,7 +57,7 @@ if (window.innerWidth > 900) {
     document.getElementById("rigger").setAttribute("y", "240");
 
     tl.from('.seccion__2', {yPercent: 100})
-    tl.from('.seccion__3', {xPercent: -100})
+    tl.from('.seccion__3', {yPercent: 100})
     tl.from('.seccion__4', {yPercent: 100})
 
     .fromTo('.sky', {y:0},{y:-100}, 0)
