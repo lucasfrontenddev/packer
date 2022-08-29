@@ -209,28 +209,28 @@ body{
 
             }
             .seccion:nth-child(3){
-//                background: linear-gradient(to bottom, #ffffff00 0%, #ffffff2a 10%, #ffffffd5 15%, #fffdfd 30%,  #fefefe 40%);
-                background: linear-gradient(to top, $bg-sky, #45749c);
+                background: linear-gradient(to bottom, #ffffff00 0%, #ffffff2a 10%, #ffffffd5 15%, #fffdfd 30%,  #fefefe 40%);
+      //          background: linear-gradient(to top, $bg-sky, #ffffff00);
                 .clouds_mask_1{
                     position: absolute;
-                    top: 0;
-                    left: 0;
+                    top: -20;
+                    left: -800;
                     max-width: 600px;
                     z-index: 10000;
                     animation: animateCloud 50s linear infinite;
                 }
                 .clouds_mask_2{
                     position: absolute;
-                    top: 0;
-                    left: 900px;
+                    top: -25;
+                    left: -700px;
                     max-width: 500px;
                     z-index: 10000;
                     animation: animateCloud 35s linear infinite;      
                 }
                 .clouds_mask_3{
                     position: absolute;
-                    top: 0px;
-                    left: 400px;
+                    top: -30px;
+                    left: -500px;
                     max-width: 600px;
 
                     z-index: 10000;
@@ -239,7 +239,7 @@ body{
                 }
                 .clouds_mask_4{
                     position: absolute;
-                    top: -100px;
+                    top: -50px;
                     left: -300px;
                     max-width: 700px;
 
@@ -249,8 +249,8 @@ body{
                 }
                 .clouds_mask_5{
                     position: absolute;
-                    top: -200px;
-                    left: -300px;
+                    top: -100px;
+                    left: -100px;
                     max-width: 800px;
 
                     z-index: 10000;
@@ -259,13 +259,73 @@ body{
                 }
                 .clouds_mask_6{
                     position: absolute;
-                    top: -300px;
-                    left: -300px;
+                    top: -200px;
+                    left: -0px;
                     max-width: 1000px;
 
                     z-index: 10000;
                     animation: animateCloud 80s linear infinite; 
                     animation-delay: -20x;  
+                }
+                .clouds_mask_7{
+                    position: absolute;
+                    top: 0px;
+                    left: 100px;
+                    max-width: 800px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -15x;  
+                }
+                .clouds_mask_8{
+                    position: absolute;
+                    top: 0px;
+                    left: 300px;
+                    max-width: 900px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -16x;  
+                }
+                .clouds_mask_9{
+                    position: absolute;
+                    top: 0px;
+                    left: 600px;
+                    max-width: 600px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -14x;  
+                }
+                .clouds_mask_10{
+                    position: absolute;
+                    top: -100px;
+                    left: 0px;
+                    max-width: 600px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -14x;  
+                }
+                .clouds_mask_11{
+                    position: absolute;
+                    top: -150px;
+                    left: 500px;
+                    max-width: 600px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -14x;  
+                }
+                .clouds_mask_12{
+                    position: absolute;
+                    top: 200px;
+                    left: 900px;
+                    max-width: 900px;
+
+                    z-index: 10000;
+                    animation: animateCloud 80s linear infinite; 
+                    animation-delay: -14x;  
                 }
                 @keyframes animateCloud {
                     0%{
@@ -275,6 +335,15 @@ body{
                         transform: translateX(400%) scale(1.5);
 
                     }
+                    
+                }
+                .about_me{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: 20% auto;
                     
                 }
 
