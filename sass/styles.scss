@@ -28,6 +28,7 @@ $colores-redes: (
 
 body{
     font-size: 60.5%;
+    font-family: 'Roboto Mono', monospace;
     header{
         nav{
             .container-fluid{
@@ -343,7 +344,12 @@ body{
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    margin: 20% auto;
+                    margin: 10% auto;
+                    p{
+                        font-family: 'Roboto Mono', monospace;
+                        font-size: 1.2rem;
+                        text-align:center;
+                    }
                     
                 }
 
@@ -352,22 +358,31 @@ body{
             .seccion:nth-child(4){
                 background: linear-gradient(to top, #185197, #45739c); //background-color: rgba(2, 27, 164, 0.63);
                 z-index: 2;
+                .clouds_mask_1{
+                    position: absolute;
+                    top: -250px;
+                    left: -300px;
+                    max-width: 1000px;
+                    z-index: 10000;
+                }
+                .clouds_mask_2{
+                    position: absolute;
+                    top: -250px;
+                    left: 500px;
+                    max-width: 500px;
+                    z-index: 10000;
+                }
+                .clouds_mask_3{
+                    position: absolute;
+                    top: -130px;
+                    left: 500px;
+                    max-width: 1500px;
+                    z-index: 10000;
+                }
                 .container{
                     .row{
                         
-                        div{
-                            min-width: 70%;
-                            min-height: 70%;
-                            .flag{
-                                background-image: url(/assets/flag_1.png);
-                                background-repeat: no-repeat;
-                                background-position: center top; 
-                                min-width: 100%;
-                                min-height: 100%;
-        
-                            }
 
-                        }
                     }
 
                 }
